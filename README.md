@@ -27,6 +27,6 @@
 ## 📂 專案結構
 ```text
 RunProject_final.py         # 主程式（人臉辨識 + 繼電器控制）
-device.png                  # 硬體設備示意圖
+device.png                  # 硬體設備照片
 README.md                   # 專案說明
 LICENSE                     # 授權條款
