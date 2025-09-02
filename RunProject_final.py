@@ -40,7 +40,7 @@ try:
         # 控制開關
         if detected:
             if not gpio_initialized:  
-                switch_pin = 23 
+                switch_pin = 23 # 繼電器控制腳位
                 GPIO.setmode(GPIO.BCM)
                 GPIO.setup(switch_pin, GPIO.OUT)  
                 gpio_initialized = True  # 標誌設為已初始化
