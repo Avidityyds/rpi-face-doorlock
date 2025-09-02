@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 import time
 
 model = YOLO('FaceDetectFinal.pt')  # 載入 YOLOv8 模型
-target_classes = ['CHEN', 'Amy', 'Ben', 'KengLiHU', 'Thompson']  # 目標人物清單
+target_classes = []  # 目標人物清單
 conf_threshold = 0.7  # 設定置信度閾值
 
 # 初始化設備
