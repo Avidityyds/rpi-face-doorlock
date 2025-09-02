@@ -24,7 +24,7 @@
 
 ---
 
-## 專案結構
+## 📂 專案結構
 ```text
 RunProject_final.py         # 主程式（人臉辨識 + 繼電器控制）
 device.png                  # 硬體設備示意圖
